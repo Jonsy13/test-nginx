@@ -21,7 +21,7 @@ spec:
       - env:
         - name: REDIS_ADDR
           value: redis-cart:6379
-        #image: gcr.io/google-xyz
+        #image: gcr.io/google-
         image: ksatchit/cartservice:0.1.0
         imagePullPolicy: IfNotPresent
         livenessProbe:
